@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if(localStorage.getItem("accessToken")){
     window.location.href = "dashboard/dashboard.html"
-  }else{
+  }
+  else{
     window.location.href = "login/login.html"
   }
 
